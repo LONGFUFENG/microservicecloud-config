@@ -4,6 +4,11 @@ spring:
         - dev
 ---
 spring:
+    profiles: dev
     application:
-        profiles: dev
-        name: testfile
+        name: aaaaaaaaaaaaaaaaaa
+---
+spring:
+    profiles: test
+    application:
+        name: bbbbbbbbbbbbbbbbbbb
